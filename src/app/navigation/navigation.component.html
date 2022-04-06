@@ -1,0 +1,32 @@
+<header>
+  <nav id="site-menu"
+       class="z-40 flex flex-col md:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-gray-200 border-b-2 border-blue-700 fixed top-0 ">
+    <div class="w-full md:w-auto self-start md:self-center flex flex-row md:flex-none flex-no-wrap justify-between items-center lg:ml-2">
+      <div (click)="Scroll('home')" class="py-1 flex items-center cursor-pointer">
+        <img src="assets/img/icon.png" alt="Home" width="40" height="40">
+        <h2 class="text-2xl small-caps ml-4">Michiel Van Eynde</h2>
+      </div>
+      <button aria-label="Menu" id="menuBtn" class="block md:hidden focus:outline-none p-2 ml-auto">
+        <span class="fas fa-bars"></span>
+      </button>
+    </div>
+    <div id="menu"
+         class="w-full md:w-auto lg:mr-2 self-end md:flex flex-col md:flex-row h-full py-1 pb-4 md:py-0 md:pb-2 hidden text-center small-caps">
+      <p (click)="Scroll('about')" class="cursor-pointer text-dark font-bold text-lg w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2">
+        <span>About Me</span>
+      </p>
+
+      <p (click)="Scroll('projects')" class="cursor-pointer text-dark font-bold text-lg w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2">
+        <span>Projects</span>
+      </p>
+
+      <p (click)="Scroll('skills')" class="cursor-pointer text-dark font-bold text-lg w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2">
+        <span>Skills</span>
+      </p>
+
+      <p (click)="Scroll('socials')" class="cursor-pointer text-dark font-bold text-lg w-full no-underline md:w-auto md:px-4 py-2 md:py-1 md:pt-2">
+        <span>Social Media</span>
+      </p>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,31 @@
+.bg-php{
+  background-image: url("src/assets/img/php.jpg");
+}
+
+.bg-php{
+  background-image: url("src/assets/img/php.jpg");
+}
+
+.bg-geo{
+  background-image: url("src/assets/img/qgis.jpg");
+}
+
+.bg-lm{
+  background-image: url("src/assets/img/lm_sounds.jpg");
+}
+
+.bg-br{
+  background-image: url("src/assets/img/br_login.jpg");
+}
+
+.bg-soon{
+  background-image: url("src/assets/img/soon.png");
+}
+
+.small-caps{
+  font-variant: small-caps;
+}
+
+.card:hover .text{
+  transform: translateY(0);
+}

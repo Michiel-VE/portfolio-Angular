@@ -1,0 +1,8 @@
+.dropdown:hover .dropdown-menu {
+  opacity: 100%;
+}
+
+div.mat-tab-label {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
