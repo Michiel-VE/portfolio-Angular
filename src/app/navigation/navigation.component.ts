@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class NavigationComponent {
 
+  NavToggle(): void {
+    let nav = document.getElementById('menu');
+
+    // @ts-ignore
+    nav.classList.toggle('hidden');
+  }
+
   Scroll(section: string): void{
     // @ts-ignore
     document.getElementById(section)
@@ -15,5 +22,8 @@ export class NavigationComponent {
       block: "start",
       inline: "nearest"
     });
+    if (section !== 'home'){
+    this.NavToggle()
+    }
   }
 }
