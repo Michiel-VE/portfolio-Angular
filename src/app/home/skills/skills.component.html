@@ -2,7 +2,7 @@
   <div class="block m-auto">
     <div>
       <mat-tab-group dynamicHeight>
-        <mat-tab label="Skills">
+        <mat-tab label="{{ 'home.skills.skillTitle' | translate }}">
           <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
             <div class="md:mx-4">
               <div class="md:mx-4 flex">
@@ -102,13 +102,13 @@
             </div>
           </div>
         </mat-tab>
-        <mat-tab label="Languages">
+        <mat-tab label="{{ 'home.skills.languageTitle' | translate}}">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
             <div class="md:mx-4">
               <div class="md:mx-4 flex">
                 <i class="fas fa-check mt-1 mr-2"></i>
                 <p>
-                  Dutch (Mother Tongue)
+                  {{ 'home.skills.languages.dutch' | translate }}
                 </p>
               </div>
             </div>
@@ -116,7 +116,8 @@
               <div class="md:mx-4 flex">
                 <i class="fas fa-check mt-1 mr-2"></i>
                 <p>
-                  English (Good)
+                  {{ 'home.skills.languages.english' | translate }}
+
                 </p>
               </div>
             </div>
@@ -124,7 +125,8 @@
               <div class="md:mx-4 flex">
                 <i class="fas fa-check mt-1 mr-2"></i>
                 <p>
-                  French (Basic)
+                  {{ 'home.skills.languages.french' | translate }}
+
                 </p>
               </div>
             </div>
@@ -132,7 +134,8 @@
               <div class="md:mx-4 flex">
                 <i class="fas fa-book mt-1 mr-2"></i>
                 <p>
-                  Finnish (Learning)
+                  {{ 'home.skills.languages.finnish' | translate }}
+
                 </p>
               </div>
             </div>
@@ -152,14 +155,14 @@
           <li>
             <a class="font-semibold bg-gray-200 text-black hover:bg-gray-300 hover:no-underline py-2 px-4 block"
                download href="assets/cv/Curriculum_Vitae_Michiel_Van_Eynde_EN.pdf">
-              English
+              {{ 'home.skills.cv.english' | translate }}
             </a>
           </li>
           <li>
             <a
               class="rounded-b-lg font-semibold bg-gray-200 text-black hover:bg-gray-300 hover:no-underline py-2 px-4 block"
               download href="assets/cv/Curriculum_Vitae_Michiel_Van_Eynde_NL.pdf">
-              Dutch
+              {{ 'home.skills.cv.dutch' | translate }}
             </a>
           </li>
         </ul>

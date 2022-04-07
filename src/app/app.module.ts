@@ -18,11 +18,15 @@ import {ProjectComponent} from './home/projects/project/project.component';
 import {SkillsComponent} from './home/skills/skills.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTabsModule} from "@angular/material/tabs";
-import {MatSliderModule} from "@angular/material/slider";
-import {MatSelectModule} from "@angular/material/select";
 import {FooterComponent} from './home/footer/footer.component';
 import {ProjectNavComponent} from './navigation/project-nav/project-nav.component';
+import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/translation/', '.json');
+}
 
 @NgModule({
   declarations: [
@@ -43,16 +47,24 @@ import {ProjectNavComponent} from './navigation/project-nav/project-nav.componen
     FooterComponent,
     ProjectNavComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatTabsModule,
-        MatSliderModule,
-        MatSelectModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatTabsModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (createTranslateLoader),
+        deps: [HttpClient]
+      },
+      defaultLanguage: 'en'
+    })
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
+
 }
