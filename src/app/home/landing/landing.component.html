@@ -1,12 +1,16 @@
-<section id="home">
-  <div class="min-h-screen flex flex-col justify-center items-center bg-home bg-cover bg-bottom bg-fixed mx-auto">
-    <div>
-      <h1 class="text-4xl md:text-6xl text-white tracking-widest small-caps p-4 text-center">
+<section id="home" class="relative">
+  <div
+    class="min-h-screen flex flex-col justify-center items-center bg-home bg-cover bg-center bg-fixed lg:scale-125 lg:rounded-b-[50%] mx-auto">
+    <div class="sticky top-56">
+      <h1 class="text-2xl md:text-4xl text-white tracking-widest small-caps p-4 font-bold text-center">
         Michiel Van Eynde
       </h1>
-    </div>
-    <div (click)="Scroll('about')" class="cursor-pointer mt-20">
-      <span class="fas fa-arrow-down text-white text-3xl animate-bounce-slow pt-10"></span>
+      <h2 class="text-xl md:text-2xl text-white tracking-widest small-caps p-4 text-center">
+        Always up for a challenge!
+      </h2>
+      <div (click)="Scroll('about')" class="cursor-pointer text-center mt-14">
+        <span class="fas fa-arrow-down text-white text-3xl animate-bounce-slow pt-10"></span>
+      </div>
     </div>
   </div>
 </section>

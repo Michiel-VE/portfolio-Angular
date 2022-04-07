@@ -1,5 +1,5 @@
 <div *ngIf="project.completed; else notCompleted" class="rounded-xl overflow-hidden card">
-  <a class="hover:no-underline" routerLink="/projects/{{ project.url }}" target="blank">
+  <a class="hover:no-underline" routerLink="/projects/{{ project.url }}">
     <div class="bg-{{ project.img }} bg-cover bg-top h-72">
       <div class="w-full h-full flex items-end">
         <div

@@ -20,7 +20,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTabsModule} from "@angular/material/tabs";
 import {MatSliderModule} from "@angular/material/slider";
 import {MatSelectModule} from "@angular/material/select";
-import { FooterComponent } from './home/footer/footer.component';
+import {FooterComponent} from './home/footer/footer.component';
+import {ProjectNavComponent} from './navigation/project-nav/project-nav.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { FooterComponent } from './home/footer/footer.component';
     ProjectsComponent,
     ProjectComponent,
     SkillsComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectNavComponent
   ],
     imports: [
         BrowserModule,

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
@@ -14,16 +14,16 @@ export class NavigationComponent {
     nav.classList.toggle('hidden');
   }
 
-  Scroll(section: string): void{
+  Scroll(section: string): void {
     // @ts-ignore
     document.getElementById(section)
       .scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-      inline: "nearest"
-    });
-    if (section !== 'home'){
-    this.NavToggle()
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+      });
+    if (section !== 'home') {
+      this.NavToggle()
     }
   }
 }
