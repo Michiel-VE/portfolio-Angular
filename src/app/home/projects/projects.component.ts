@@ -65,7 +65,7 @@ export class ProjectsComponent {
       name: 'Geolocatie',
       img: 'geo',
       url: 'geolocation',
-      description: 'Een project om data uit 1834 to tonen op hedendaagse kaarten.',
+      description: 'Een project om data uit 1834 te tonen op hedendaagse kaarten.',
       completed: true
     },
     {
@@ -93,7 +93,7 @@ export class ProjectsComponent {
       name: 'Dakreiniging LM',
       img: 'soon',
       url: 'darkreiniging-lm',
-      description: 'Een dakreinigen is een simpel werkje',
+      description: 'Een dakreinigen is een simpel werkje.',
       completed: false
     },
   ]
