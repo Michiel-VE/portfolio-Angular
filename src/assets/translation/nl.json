@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "about": "Over Mij",
+    "projects": "Projecten",
+    "skills": "Vaardigheden",
+    "social": "Social Media"
+  },
+  "home": {
+    "landing": {
+      "subtitle": "Altijd klaar voor een avontuur!"
+    },
+    "about": {
+      "title": "Over mij",
+      "paragraph1": "Ik ben een 22-jarige student geïnteresseerd in IT en alles dat te maken heeft met programmeren. Dit was de reden dat ik toegepaste informatica ben gaan studeren aan de Thomas More hogeschool in Geel. Een programma schrijven gebaseerd op de eisen van een vriend, ouder of klant, is mijn favorite bezigheid.",
+      "paragraph2": "Nu hoop ik mijn kennis te verbreedden. Mijn ultime doel is om in Finland te studeren en mijn cyber-security skills te verbeteren. De reden voor deze stap is dat ik verliefd werd op het land en de mentaliteit.",
+      "paragraph3": "Natuurlijk is programmeren niet het enige wat ik doe. Mijn hobby is judo en hier kan ik mezelf echt zijn. In onze hechte club probeerd iedereen elkaar te helpen en elk jaar organiseren we een quiz om elkaar uit te dagen."
+    },
+    "skills": {
+      "skillTitle": "Vaardigheden",
+      "languageTitle": "Talen",
+      "languages": {
+        "dutch": "Nederlands (Moedertaal)",
+        "english": "Engels (Goed)",
+        "french": "Frans (Basis)",
+        "finnish": "Fins (Lerend)"
+      },
+      "cv": {
+        "english": "Engels",
+        "dutch": "Nederlands"
+      }
+    }
+  }
+}

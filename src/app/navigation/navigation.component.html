@@ -39,7 +39,7 @@
                 class="form-select px-2 py-1 text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-gray-300
       rounded transition ease-in-out mt-1 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none">
           <option *ngFor="let lang of translate.getLangs()" [value]="lang"
-                  [selected]="lang === translate.currentLang">{{ lang }}</option>
+                  [selected]="changeLanguage(lang)">{{ lang }}</option>
         </select>
       </div>
 

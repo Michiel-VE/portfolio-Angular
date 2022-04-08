@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "social": "Social Media"
+  },
+  "home": {
+    "landing": {
+      "subtitle": "Always up for a challenge!"
+    },
+    "about": {
+      "title": "About Me",
+      "paragraph1": "I'm a 22-year-old student interested in IT and everything to do with programming. That's why I chose to study Applied Informatics at Thomas More Geel. Just writing a program form scratch based on the needs of a friend, parent or client, is the thing I like the most.",
+      "paragraph2": "And now I try to expand my knowledge even more: My goal is to study in Finland where I hope to improve my cyber-security skills. The reason why is that I wanted to continue learning but also fell in love with the country and mentality.",
+      "paragraph3": "Of course programming is not the only thing I do. My hobby is judo and here I can really be myself. Our club has a great community where everybody tries to help each other and every other year we will do a quiz to challenge each other."
+    },
+    "skills": {
+      "skillTitle": "Skills",
+      "languageTitle": "Languages",
+      "languages": {
+        "dutch": "Dutch (Mother tongue)",
+        "english": "English (Good)",
+        "french": "French (Basic)",
+        "finnish": "Finnish (Learning)"
+      },
+      "cv": {
+        "english": "English",
+        "dutch": "Dutch"
+      }
+    }
+  }
+}

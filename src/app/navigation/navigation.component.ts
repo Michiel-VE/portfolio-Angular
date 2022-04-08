@@ -13,8 +13,6 @@ export class NavigationComponent {
     translate.addLangs(['en', 'nl']);
     translate.setDefaultLang('en');
 
-    console.log(this.currentLang)
-
     const browserLang = translate.getBrowserLang();
     translate.use(browserLang.match(/en|nl/) ? browserLang : 'nl');
   }
@@ -37,5 +35,10 @@ export class NavigationComponent {
     if (section !== 'home') {
       this.NavToggle()
     }
+  }
+
+  changeLanguage(lang: string): boolean {
+    return this.translate.currentLang === lang;
+
   }
 }
