@@ -8,7 +8,7 @@ describe('ProjectNavComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ProjectNavComponent]
+      declarations: [ProjectNavComponent],
     })
       .compileComponents();
   });

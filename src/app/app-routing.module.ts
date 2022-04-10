@@ -1,16 +1,17 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {PhpComponent} from "./projects/php/php.component";
-import {GeolocationComponent} from "./projects/geolocation/geolocation.component";
-import {LMSoundsComponent} from "./projects/lm-sounds/lm-sounds.component";
-import {BerverageRaterComponent} from "./projects/berverage-rater/berverage-rater.component";
-import {F1Component} from "./projects/f1/f1.component";
-import {DakreinigingLMComponent} from "./projects/dakreiniging-lm/dakreiniging-lm.component";
-import {HomeComponent} from "./home/home.component";
+
+import {HomeComponent} from './home/home.component';
+import {BerverageRaterComponent} from './projects/berverage-rater/berverage-rater.component';
+import {DakreinigingLMComponent} from './projects/dakreiniging-lm/dakreiniging-lm.component';
+import {F1Component} from './projects/f1/f1.component';
+import {GeolocationComponent} from './projects/geolocation/geolocation.component';
+import {LMSoundsComponent} from './projects/lm-sounds/lm-sounds.component';
+import {PhpComponent} from './projects/php/php.component';
 
 const routes: Routes = [
   {
-    path: "projects",
+    path: 'projects',
     children: [
       {
         path: 'php',
@@ -39,14 +40,14 @@ const routes: Routes = [
     ],
   },
   {
-    path: "",
-    component: HomeComponent
-  }
+    path: '',
+    component: HomeComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {
 }
