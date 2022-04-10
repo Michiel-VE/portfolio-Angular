@@ -15,6 +15,9 @@
       "paragraph2": "Nu hoop ik mijn kennis te verbreedden. Mijn ultime doel is om in Finland te studeren en mijn cyber-security skills te verbeteren. De reden voor deze stap is dat ik verliefd werd op het land en de mentaliteit.",
       "paragraph3": "Natuurlijk is programmeren niet het enige wat ik doe. Mijn hobby is judo en hier kan ik mezelf echt zijn. In onze hechte club probeerd iedereen elkaar te helpen en elk jaar organiseren we een quiz om elkaar uit te dagen."
     },
+    "projects": {
+      "name": "Mijn Projecten"
+    },
     "skills": {
       "skillTitle": "Vaardigheden",
       "languageTitle": "Talen",
@@ -28,6 +31,30 @@
         "english": "Engels",
         "dutch": "Nederlands"
       }
+    }
+  },
+  "projects": {
+    "result": "Bekijk resultaat",
+    "back": "Ga terug",
+    "php": {
+      "name": "Project PHP",
+      "paragraph1": "Dit was een vervolg-project van het vak Eisen-Analyse (RA). Bij dit project konden we onze theoretische kennis omzetten in praktijk. Natuurlijk mochten we niet ons eigen project gebruiken omdat we daar voorkennis van hadden. Dankzij dit konden we het leerproces van beide kanten leren. Dit project was ook het eerste dat ik niet voor mezelf maakte.",
+      "paragraph2": "Het belangrijkste dat ik leerde tijdens dit project was de communicatie tussen collega's en klant. Als je jezelf niet duidelijk kon maken, kunnen andere je niet helpen of begrijpen. Dit telt ook voor de klant als hij je niet begrijpt kan de applicatie niet ten volle benut worden. Het is ook zeker belangrijk dat je leert vragen, omdat alles veel duidelijker wordt en collega's weten waar je vast zit."
+    },
+    "geo": {
+      "name": "Geolocatie",
+      "paragraph1": "Dit project was gemaakt in mijn vrije tijd. Mijn vader werkt samen met het achrief van Geel, en hij wou graag een applicatie waarbij er data uit 1834 op een hedendaagse kaart toont. Dit project is nog maar pril, omdat er nog 6 andere kaarten zijn.",
+      "paragraph2": "Door aan dit project the werken leerde ik hoe je een kaart refereerd met een andere/huidige kaart. Ook was dit een goede oefening om mijn communicatie te oefenen, zelfs al was dit met mijn vader, om zo beslissingen te nemen. Alles werd gemaakt in QGIS dat veel aan te bieden heeft op basis van dataverwerking. Op onderstaande link kan je het resultaat vinden."
+    },
+    "lm": {
+      "name": "LM-Sounds",
+      "paragraph1": "LM-Sounds is een website gemaakt voor een vriend. We begonnen te praten over websites en hoe hij er altijd al één wou. Omdat ik graag mensen help, en met mijn achtergrond in IT, was ik geïnteresseerd. Met een aantal directe vragen kon ik al snel een MoSCoW opstellen.",
+      "paragraph2": "Ik heb heel erg van het programmeren genoten, maar ook erg van het helpen van anderen. We proberen hem ook te ondersteunen en de website up-to-date te houden en er zeker van te zijn dat de hosting altijd online is."
+    },
+    "br": {
+      "name": "Beverage Rater",
+      "paragraph1": "Het plan van aanpak was eerst een globaal idee zoeken. Dit ging snel omdat we al een aantal ideeën hadden van vorige brainstorms. De volgende stap was een MoSCoW opstellen, eenmaal de opdracht was uitgelegt, was dit een checklist volgen. Nadien creërde we een sketch. Omdat ik nog niet veel ervaring had was dit een van de moeilijkste taken. Dit was wel een goede manier om Figma te leren gebruiken.",
+      "paragraph2": "Eenmaal het coderen kon starten was het project redelijk makkelijk voor mij. Met af en toe een probleem was het hele programma snel geschreven. Dankzij onze voorbeiding leerde ik vele nieuwe technologiën te gebruiken, en kon ik me aan het tijdschema houden."
     }
   }
 }

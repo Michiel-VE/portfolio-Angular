@@ -39,6 +39,5 @@ export class NavigationComponent {
 
   changeLanguage(lang: string): boolean {
     return this.translate.currentLang === lang;
-
   }
 }

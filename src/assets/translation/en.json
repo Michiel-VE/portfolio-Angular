@@ -15,6 +15,9 @@
       "paragraph2": "And now I try to expand my knowledge even more: My goal is to study in Finland where I hope to improve my cyber-security skills. The reason why is that I wanted to continue learning but also fell in love with the country and mentality.",
       "paragraph3": "Of course programming is not the only thing I do. My hobby is judo and here I can really be myself. Our club has a great community where everybody tries to help each other and every other year we will do a quiz to challenge each other."
     },
+    "projects": {
+      "name": "My Projects"
+    },
     "skills": {
       "skillTitle": "Skills",
       "languageTitle": "Languages",
@@ -28,6 +31,30 @@
         "english": "English",
         "dutch": "Dutch"
       }
+    }
+  },
+  "projects": {
+    "result": "View Result",
+    "back": "Go back",
+    "php": {
+      "name": "Project PHP",
+      "paragraph1": "This is the follow-up project of Requirement Analysis (RA). Now it was time to use our practical skills and turn the theory into a web application for a client. We weren't allowed to use our own RA project, but we had used the documentary from another group. This way we learn both ways, the setup and the practical. This project was the first where I didn't make something for myself.",
+      "paragraph2": "What I learned during this project is: communicating to our colleagues and to a client. If you can't make yourself clear, others won't be able to help you. Also, if your client doesn't understand you and vice versa the web application will not be at its full potential. Another thing I learned is to ask for help. We are learning, and we don't know everything about PHP, Laravel or AJAX."
+    },
+    "geo": {
+      "name": "Geolocation",
+      "paragraph1": "This project was made in my free time. My father cooperates with the archive of Geel, and he wanted a way to show where a plot used to be located. This project is just in its baby shoes, because there are 6 other maps left to reference.",
+      "paragraph2": "Working at this project I have learned how to reference an old map with a more up‐to‐date map or vice versa. I again learned how to interact with a client, even if it was my father (and indirect to the archive) we had to communicate and make decisions. This project was made in QGIS which has a lot to offer. With this programme you can reference, draw shape layers, select data and a possibility to export it. Down below, you can find a full demo of the project."
+    },
+    "lm": {
+      "name": "LM-Sounds",
+      "paragraph1": "LM-Sounds is a website made for a friend. We started talking about websites and how he always needed one. Because I want to help and with my background in IT I was interested in creating one, so I started making a MoSCoW to prioritize.",
+      "paragraph2": "I really enjoyed this project, not only to create a website but also to help a friend and support him in the long run. We also keep the website up to date and try to make sure the hosting is always online."
+    },
+    "br": {
+      "name": "Berverage Rater",
+      "paragraph1": "The plan of approach was to first get a global idea. This was pretty easy because there were already a few ideas lying around. The next step was to set up a MoSCoW schema. With the assignment given, it was just making a checklist. Before the coding, a sketch had to be made. Not having a lot of experience in this field it was a bit of a harder task. At first, I started on paper, so I had a basic idea. Later the project was drawn in Figma to get the correct colors and spacings.",
+      "paragraph2": "The project wasn't too hard for me, once I had figured out how everything worked the programming went like a charm. Of course there were a few hiccups but after a day (if it was a big one) it was solved. Thanks to this project I really learned how to sketch an idea and make it user-friendly, so it can be easily accessible for them. Also, it was important to follow your time schedule."
     }
   }
 }
