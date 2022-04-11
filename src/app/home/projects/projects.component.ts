@@ -1,7 +1,7 @@
-import {Component} from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
+import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
-import {Project} from '../../../interfaces/project';
+import { Project } from '../../../interfaces/project';
 
 @Component({
   selector: 'app-projects',
@@ -94,7 +94,7 @@ export class ProjectsComponent {
       name: 'Dakreiniging LM',
       img: 'soon',
       url: 'darkreiniging-lm',
-      description: 'Een dakreinigen is een simpel werkje.',
+      description: 'Een dak reinigen is een simpel werkje.',
       completed: false,
     },
   ];

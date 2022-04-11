@@ -26,6 +26,6 @@
   font-variant: small-caps;
 }
 
-.card:hover .text{
+.card:hover .text, .card a:focus .text{
   transform: translateY(0);
 }

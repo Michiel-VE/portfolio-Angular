@@ -1,6 +1,6 @@
-import {ComponentFixture, TestBed} from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import {LMSoundsComponent} from './lm-sounds.component';
+import { LMSoundsComponent } from './lm-sounds.component';
 
 describe('LMSoundsComponent', () => {
   let component: LMSoundsComponent;

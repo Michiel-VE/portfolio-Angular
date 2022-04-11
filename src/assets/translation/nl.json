@@ -11,9 +11,9 @@
     },
     "about": {
       "title": "Over mij",
-      "paragraph1": "Ik ben een 22-jarige student geïnteresseerd in IT en alles dat te maken heeft met programmeren. Dit was de reden dat ik toegepaste informatica ben gaan studeren aan de Thomas More hogeschool in Geel. Een programma schrijven gebaseerd op de eisen van een vriend, ouder of klant, is mijn favorite bezigheid.",
-      "paragraph2": "Nu hoop ik mijn kennis te verbreedden. Mijn ultime doel is om in Finland te studeren en mijn cyber-security skills te verbeteren. De reden voor deze stap is dat ik verliefd werd op het land en de mentaliteit.",
-      "paragraph3": "Natuurlijk is programmeren niet het enige wat ik doe. Mijn hobby is judo en hier kan ik mezelf echt zijn. In onze hechte club probeerd iedereen elkaar te helpen en elk jaar organiseren we een quiz om elkaar uit te dagen."
+      "paragraph1": "Ik ben een 22-jarige student geïnteresseerd in IT en alles dat te maken heeft met programmeren. Dit was de reden dat ik toegepaste informatica ben gaan studeren aan de Thomas More hogeschool in Geel. Een programma schrijven gebaseerd op de eisen van een vriend, ouder of klant, is mijn favoriete bezigheid.",
+      "paragraph2": "Nu hoop ik mijn kennis uit te breiden. Mijn ultime doel is om in Finland te studeren en mijn cyber-security skills te verbeteren. De reden voor deze stap is dat ik verliefd werd op het land en de mentaliteit.",
+      "paragraph3": "Natuurlijk is programmeren niet het enige wat ik doe. Mijn hobby is judo en hier kan ik mezelf echt zijn. In onze hechte club probeert iedereen elkaar te helpen en elk jaar organiseren we een quiz om elkaar uit te dagen."
     },
     "projects": {
       "name": "Mijn Projecten"
@@ -44,7 +44,7 @@
     "geo": {
       "name": "Geolocatie",
       "paragraph1": "Dit project was gemaakt in mijn vrije tijd. Mijn vader werkt samen met het achrief van Geel, en hij wou graag een applicatie waarbij er data uit 1834 op een hedendaagse kaart toont. Dit project is nog maar pril, omdat er nog 6 andere kaarten zijn.",
-      "paragraph2": "Door aan dit project the werken leerde ik hoe je een kaart refereerd met een andere/huidige kaart. Ook was dit een goede oefening om mijn communicatie te oefenen, zelfs al was dit met mijn vader, om zo beslissingen te nemen. Alles werd gemaakt in QGIS dat veel aan te bieden heeft op basis van dataverwerking. Op onderstaande link kan je het resultaat vinden."
+      "paragraph2": "Door aan dit project the werken leerde ik hoe je een kaart refereert met een andere/huidige kaart. Ook was dit een goede oefening om mijn communicatie te oefenen, zelfs al was dit met mijn vader, om zo beslissingen te nemen. Alles werd gemaakt in QGIS dat veel aan te bieden heeft op basis van dataverwerking. Op onderstaande link kan je het resultaat vinden."
     },
     "lm": {
       "name": "LM-Sounds",

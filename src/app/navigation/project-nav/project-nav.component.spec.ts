@@ -1,6 +1,6 @@
-import {ComponentFixture, TestBed} from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import {ProjectNavComponent} from './project-nav.component';
+import { ProjectNavComponent } from './project-nav.component';
 
 describe('ProjectNavComponent', () => {
   let component: ProjectNavComponent;

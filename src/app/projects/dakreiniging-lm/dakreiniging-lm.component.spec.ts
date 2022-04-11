@@ -1,6 +1,6 @@
-import {ComponentFixture, TestBed} from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import {DakreinigingLMComponent} from './dakreiniging-lm.component';
+import { DakreinigingLMComponent } from './dakreiniging-lm.component';
 
 describe('DakreinigingLMComponent', () => {
   let component: DakreinigingLMComponent;

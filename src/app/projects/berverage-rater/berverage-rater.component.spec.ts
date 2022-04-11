@@ -1,6 +1,6 @@
-import {ComponentFixture, TestBed} from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import {BerverageRaterComponent} from './berverage-rater.component';
+import { BerverageRaterComponent } from './berverage-rater.component';
 
 describe('BerverageRaterComponent', () => {
   let component: BerverageRaterComponent;

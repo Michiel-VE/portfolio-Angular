@@ -1,5 +1,6 @@
-import {Component} from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
+import { ViewportScroller } from '@angular/common';
+import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navigation',
@@ -10,11 +11,11 @@ export class NavigationComponent {
   readonly PREFIX: string = 'MVE';
   currentLang = 'en';
 
-  constructor(public translate: TranslateService) {
+  constructor(public translate: TranslateService, private viewportScroller: ViewportScroller) {
     translate.addLangs(['en', 'nl']);
 
     if (!localStorage.getItem(`${this.PREFIX}_lang`)) {
-      localStorage.setItem(`${this.PREFIX}_lang`, window.navigator.language.slice(1));
+      localStorage.setItem(`${this.PREFIX}_lang`, window.navigator.language.slice(0, 2));
     }
 
     const browserLang = localStorage.getItem(`${this.PREFIX}_lang`) || 'en';
@@ -23,13 +24,10 @@ export class NavigationComponent {
 
   navToggle(): void {
     const nav = document.getElementById('menu');
-
-    // @ts-ignore
     nav.classList.toggle('hidden');
   }
 
   scroll(section: string): void {
-    // @ts-ignore
     document.getElementById(section)
       .scrollIntoView({
         behavior: 'smooth',

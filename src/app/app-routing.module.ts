@@ -1,13 +1,13 @@
-import {NgModule} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-import {HomeComponent} from './home/home.component';
-import {BerverageRaterComponent} from './projects/berverage-rater/berverage-rater.component';
-import {DakreinigingLMComponent} from './projects/dakreiniging-lm/dakreiniging-lm.component';
-import {F1Component} from './projects/f1/f1.component';
-import {GeolocationComponent} from './projects/geolocation/geolocation.component';
-import {LMSoundsComponent} from './projects/lm-sounds/lm-sounds.component';
-import {PhpComponent} from './projects/php/php.component';
+import { HomeComponent } from './home/home.component';
+import { BerverageRaterComponent } from './projects/berverage-rater/berverage-rater.component';
+import { DakreinigingLMComponent } from './projects/dakreiniging-lm/dakreiniging-lm.component';
+import { F1Component } from './projects/f1/f1.component';
+import { GeolocationComponent } from './projects/geolocation/geolocation.component';
+import { LMSoundsComponent } from './projects/lm-sounds/lm-sounds.component';
+import { PhpComponent } from './projects/php/php.component';
 
 const routes: Routes = [
   {
@@ -46,7 +46,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { anchorScrolling: 'enabled' })],
   exports: [RouterModule],
 })
 export class AppRoutingModule {
