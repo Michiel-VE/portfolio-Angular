@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
-import { BerverageRaterComponent } from './projects/berverage-rater/berverage-rater.component';
-import { DakreinigingLMComponent } from './projects/dakreiniging-lm/dakreiniging-lm.component';
-import { F1Component } from './projects/f1/f1.component';
-import { GeolocationComponent } from './projects/geolocation/geolocation.component';
-import { LMSoundsComponent } from './projects/lm-sounds/lm-sounds.component';
-import { PhpComponent } from './projects/php/php.component';
+import { HomeModule } from './home/home.module';
+import { BeverageRaterModule } from './projects/beverage-rater/beverage-rater.module';
+import { DakreinigingLmModule } from './projects/dakreiniging-lm/dakreiniging-lm.module';
+import { F1Module } from './projects/f1/f1.module';
+import { GeolocationModule } from './projects/geolocation/geolocation.module';
+import { LmSoundsModule } from './projects/lm-sounds/lm-sounds.module';
+import { PhpModule } from './projects/php/php.module';
 
 const routes: Routes = [
   {
@@ -15,38 +15,50 @@ const routes: Routes = [
     children: [
       {
         path: 'php',
-        component: PhpComponent,
+        loadChildren: () => import('./projects/php/php.module')
+          .then((m: {PhpModule: PhpModule}) => m.PhpModule),
       },
       {
         path: 'geolocation',
-        component: GeolocationComponent,
+        loadChildren: () => import('./projects/geolocation/geolocation.module')
+          .then((m: {GeolocationModule: GeolocationModule}) => m.GeolocationModule),
       },
       {
         path: 'lm-sounds',
-        component: LMSoundsComponent,
+        loadChildren: () => import('./projects/lm-sounds/lm-sounds.module')
+          .then((m: {LmSoundsModule: LmSoundsModule}) => m.LmSoundsModule),
       },
       {
         path: 'beverage-rater',
-        component: BerverageRaterComponent,
+        loadChildren: () => import('./projects/beverage-rater/beverage-rater.module')
+          .then((m: {BeverageRaterModule: BeverageRaterModule}) => m.BeverageRaterModule),
       },
       {
         path: 'f1',
-        component: F1Component,
+        loadChildren: () => import('./projects/f1/f1.module')
+          .then((m: {F1Module: F1Module}) => m.F1Module),
       },
       {
-        path: 'darkreiniging-lm',
-        component: DakreinigingLMComponent,
+        path: 'dakreiniging-lm',
+        loadChildren: () => import('./projects/dakreiniging-lm/dakreiniging-lm.module')
+          .then((m: { DakreinigingLmModule: DakreinigingLmModule }) => m.DakreinigingLmModule),
       },
     ],
   },
   {
     path: '',
-    component: HomeComponent,
+    loadChildren: () => import('./home/home.module')
+      .then((m: { HomeModule: HomeModule }) => m.HomeModule),
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { anchorScrolling: 'enabled' })],
+  imports: [RouterModule.forRoot(routes,
+    {
+      anchorScrolling: 'enabled',
+      preloadingStrategy: PreloadAllModules,
+    },
+  )],
   exports: [RouterModule],
 })
 export class AppRoutingModule {

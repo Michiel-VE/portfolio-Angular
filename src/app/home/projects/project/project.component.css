@@ -1,25 +1,21 @@
 .bg-php{
-  background-image: url("src/assets/img/php.jpg");
-}
-
-.bg-php{
-  background-image: url("src/assets/img/php.jpg");
+  background-image: url("src/assets/img/php.webp");
 }
 
 .bg-geo{
-  background-image: url("src/assets/img/qgis.jpg");
+  background-image: url("src/assets/img/qgis.webp");
 }
 
 .bg-lm{
-  background-image: url("src/assets/img/lm_sounds.jpg");
+  background-image: url("src/assets/img/lm_sounds.webp");
 }
 
 .bg-br{
-  background-image: url("src/assets/img/br_login.jpg");
+  background-image: url("src/assets/img/br_login.webp");
 }
 
 .bg-soon{
-  background-image: url("src/assets/img/soon.png");
+  background-image: url("src/assets/img/soon.webp");
 }
 
 .small-caps{

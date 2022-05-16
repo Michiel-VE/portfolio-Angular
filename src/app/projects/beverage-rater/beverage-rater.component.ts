@@ -3,10 +3,10 @@ import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-berverage-rater',
-  templateUrl: './berverage-rater.component.html',
-  styleUrls: ['./berverage-rater.component.css'],
+  templateUrl: './beverage-rater.component.html',
+  styleUrls: ['./beverage-rater.component.css'],
 })
-export class BerverageRaterComponent {
+export class BeverageRaterComponent {
   readonly PREFIX: string = 'MVE';
 
   constructor(public translate: TranslateService) {
