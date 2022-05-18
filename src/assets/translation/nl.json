@@ -2,6 +2,7 @@
   "nav": {
     "about": "Over Mij",
     "projects": "Projecten",
+    "internship": "Stage",
     "skills": "Vaardigheden",
     "social": "Social Media"
   },
@@ -17,6 +18,14 @@
     },
     "projects": {
       "name": "Mijn Projecten"
+    },
+    "internship": {
+      "title": "Stage JUVO",
+      "paragraph1": "Het doel van deze stage was om een applicatie te maken voor de HR afdeling, zodat deze de verwerving van nieuwe werknemers kan versnellen. Nu kan iemand zijn/haar cv uploaden en een via tekst-herkenning wordt de meeste data gevonden zoals: opleidingen, vorige werk ervaringen en de skills.",
+      "paragraph2": "Dankzij deze stage heb ik veel technologiën en nieuwe skills kunnen leren. Onderandere weet ik nu hoe een standup meeting werkt, demonstraties geven aan de klant en betere en geoptimalizeerde code schrijven.",
+      "PoA": "Plan van aanpak",
+      "realization": "Realisatie",
+      "reflection": "Reflectie"
     },
     "skills": {
       "skillTitle": "Vaardigheden",

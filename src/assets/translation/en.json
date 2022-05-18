@@ -2,6 +2,7 @@
   "nav": {
     "about": "About Me",
     "projects": "Projects",
+    "internship": "Internship",
     "skills": "Skills",
     "social": "Social Media"
   },
@@ -17,6 +18,14 @@
     },
     "projects": {
       "name": "My Projects"
+    },
+    "internship": {
+      "title": "Internship JUVO",
+      "paragraph1": "The goal of this internship was to make an application for HR, to improve their acquisition of new employees. Now someone can upload their resume, and an automated text-recognizer will return most of the data like: educations, previous work experiences and skills." ,
+      "paragraph2": "In this internship I leaned a lot of new skills and technologies. I learned how to have a stand-up meeting, give demonstrations to the client and write more optimize code." ,
+      "PoA": "Plan of approach",
+      "realization": "Realization",
+      "reflection": "Reflection"
     },
     "skills": {
       "skillTitle": "Skills",

@@ -1,4 +1,3 @@
-import { ViewportScroller } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -11,7 +10,7 @@ export class NavigationComponent {
   readonly PREFIX: string = 'MVE';
   currentLang = 'en';
 
-  constructor(public translate: TranslateService, private viewportScroller: ViewportScroller) {
+  constructor(public translate: TranslateService) {
     translate.addLangs(['en', 'nl']);
 
     if (!localStorage.getItem(`${this.PREFIX}_lang`)) {
@@ -41,6 +40,7 @@ export class NavigationComponent {
 
   changeSelectedLanguage(lang: string): boolean {
     localStorage.setItem(`${this.PREFIX}_lang`, this.translate.currentLang);
+    document.documentElement.setAttribute('lang', this.translate.currentLang);
     return this.translate.currentLang === lang;
   }
 }
