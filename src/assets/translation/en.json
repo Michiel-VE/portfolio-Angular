@@ -13,8 +13,8 @@
     "about": {
       "title": "About Me",
       "paragraph1": "I'm a 22-year-old student interested in IT and everything to do with programming. That's why I chose to study Applied Informatics at Thomas More Geel. Just writing a program form scratch based on the needs of a friend, parent or client, is the thing I like the most.",
-      "paragraph2": "And now I try to expand my knowledge even more: My goal is to study in Finland where I hope to improve my cyber-security skills. The reason why is that I wanted to continue learning but also fell in love with the country and mentality.",
-      "paragraph3": "Of course programming is not the only thing I do. My hobby is judo and here I can really be myself. Our club has a great community where everybody tries to help each other and every other year we will do a quiz to challenge each other."
+      "paragraph2": "And now I try to expand my knowledge even more: My goal is to study in Finland where I hope to improve my cyber-security skills. The reason why is that I wanted to continue learning but also fell in love with the country and mentality during my exchange.",
+      "paragraph3": "Of course programming is not the only thing I do. My hobby is judo and here I can really be myself. Our club has a great community where everybody tries to help and every other year we will do a quiz to challenge each other."
     },
     "projects": {
       "name": "My Projects"
@@ -22,7 +22,7 @@
     "internship": {
       "title": "Internship JUVO",
       "paragraph1": "The goal of this internship was to make an application for HR, to improve their acquisition of new employees. Now someone can upload their resume, and an automated text-recognizer will return most of the data like: educations, previous work experiences and skills." ,
-      "paragraph2": "In this internship I leaned a lot of new skills and technologies. I learned how to have a stand-up meeting, give demonstrations to the client and write more optimize code." ,
+      "paragraph2": "In this internship I learned a lot of new skills and technologies. I learned how to have a stand-up meeting, give demonstrations to clients and write more optimized code." ,
       "PoA": "Plan of approach",
       "realization": "Realization",
       "reflection": "Reflection"
@@ -49,7 +49,7 @@
       "emailPlaceholder": "Email",
       "messagePlaceholder": "Message",
       "nameErrorReq": "Please fill in a name.",
-      "emailErrorReq": "Please fill in a email.",
+      "emailErrorReq": "Please fill in an email.",
       "emailErrorPattern": "This is not a valid email.",
       "emailErrorEmail": "This is not a valid email.",
       "msgErrorReq": "Please write an message.",
