@@ -4,7 +4,7 @@
     "projects": "Projecten",
     "internship": "Stage",
     "skills": "Vaardigheden",
-    "social": "Social Media"
+    "social": "Contacteer me"
   },
   "home": {
     "landing": {
@@ -40,6 +40,24 @@
         "english": "Engels",
         "dutch": "Nederlands"
       }
+    },
+    "footer": {
+      "nameLabel": "Vul hier je naam in",
+      "emailLabel": "Vul hier je email in",
+      "messageLabel": "Schrijf hier je bericht",
+      "namePlaceholder": "Naam",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "Bericht",
+      "nameErrorReq": "Vul een naam in.",
+      "emailErrorReq": "Vul een email in.",
+      "emailErrorPattern": "Deze email is niet correct.",
+      "emailErrorEmail": "Deze email is niet correct.",
+      "msgErrorReq": "Schrijf je bericht hier.",
+      "sendButton": "Verstuur",
+      "sendEmail": "Email verzonden!",
+      "sendErrorEmail": "Kan email niet verzenden!"
+
+
     }
   },
   "projects": {
@@ -64,6 +82,11 @@
       "name": "Beverage Rater",
       "paragraph1": "Het plan van aanpak was eerst een globaal idee zoeken. Dit ging snel omdat we al een aantal ideeën hadden van vorige brainstorms. De volgende stap was een MoSCoW opstellen, eenmaal de opdracht was uitgelegt, was dit een checklist volgen. Nadien creërde we een sketch. Omdat ik nog niet veel ervaring had was dit een van de moeilijkste taken. Dit was wel een goede manier om Figma te leren gebruiken.",
       "paragraph2": "Eenmaal het coderen kon starten was het project redelijk makkelijk voor mij. Met af en toe een probleem was het hele programma snel geschreven. Dankzij onze voorbeiding leerde ik vele nieuwe technologiën te gebruiken, en kon ik me aan het tijdschema houden."
+    },
+    "f1": {
+      "name": "F1-Stats",
+      "paragraph1": "Het project startte toen ik een API vond op het internet, maar te lang duurde tegen het geupdate werd. Hierdoor dacht ik zelf een API te maken zodat ik altijd zo snel mogelijk alles kan updaten. Ik begon eerst met mijn database te tekenen, zo wist ik wat ik kon opslagen. In het begin was de database nog niet groot, maar dit liep snel uit de hand tot ik dit limiteerde. Vervolgens kon ik mijn back-end en later mij front-end coderen, maar natuurlijk was er heel wat herschreven. ",
+      "paragraph2": "Tijdens dit project heb ik vele nieuwe manieren van coderen ontdekt en nieuwe technieken leren gebruiken. Dankzij mijn stage kon ik zowel back als in front-end mijn nieuwe skills gebruiken. Als hosting ben ik ook een nieuwe route ingeslagen: Amazon Web Services. Dit was de eerste keer dat ik dit gebruikte, dus het was moeilijk om alles juist uit te zoeken. Over het algemeen ben ik trots met wat ik hier heb gemaakt."
     }
   }
 }

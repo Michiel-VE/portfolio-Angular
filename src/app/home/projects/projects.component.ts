@@ -40,10 +40,10 @@ export class ProjectsComponent {
     },
     {
       name: 'F1',
-      img: 'soon',
+      img: 'f1',
       url: 'f1',
       description: 'With this angular application you can follow the F1 adventure.',
-      completed: false,
+      completed: true,
     },
     {
       name: 'Dakreiniging LM',
@@ -85,10 +85,10 @@ export class ProjectsComponent {
     },
     {
       name: 'F1',
-      img: 'soon',
+      img: 'f1',
       url: 'f1',
       description: 'Met deze Angular app kan je het F1 avontuur volgen.',
-      completed: false,
+      completed: true,
     },
     {
       name: 'Dakreiniging LM',

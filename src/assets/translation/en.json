@@ -4,7 +4,7 @@
     "projects": "Projects",
     "internship": "Internship",
     "skills": "Skills",
-    "social": "Social Media"
+    "social": "Contact me"
   },
   "home": {
     "landing": {
@@ -40,6 +40,22 @@
         "english": "English",
         "dutch": "Dutch"
       }
+    },
+    "footer": {
+      "nameLabel": "Enter your name",
+      "emailLabel": "Enter your email",
+      "messageLabel": "Enter your message",
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "Message",
+      "nameErrorReq": "Please fill in a name.",
+      "emailErrorReq": "Please fill in a email.",
+      "emailErrorPattern": "This is not a valid email.",
+      "emailErrorEmail": "This is not a valid email.",
+      "msgErrorReq": "Please write an message.",
+      "sendButton": "Send",
+      "sendEmail": "Email send!",
+      "sendErrorEmail": "Could not send email!"
     }
   },
   "projects": {
@@ -64,6 +80,11 @@
       "name": "Berverage Rater",
       "paragraph1": "The plan of approach was to first get a global idea. This was pretty easy because there were already a few ideas lying around. The next step was to set up a MoSCoW schema. With the assignment given, it was just making a checklist. Before the coding, a sketch had to be made. Not having a lot of experience in this field it was a bit of a harder task. At first, I started on paper, so I had a basic idea. Later the project was drawn in Figma to get the correct colors and spacings.",
       "paragraph2": "The project wasn't too hard for me, once I had figured out how everything worked the programming went like a charm. Of course there were a few hiccups but after a day (if it was a big one) it was solved. Thanks to this project I really learned how to sketch an idea and make it user-friendly, so it can be easily accessible for them. Also, it was important to follow your time schedule."
+    },
+    "f1": {
+      "name": "F1-Stats",
+      "paragraph1": "The project started with an API I found on the internet, but it took way too long until is was updated. So the next logical step for me was to create my own. I first started drawing my database, so I know what I needed to store. In the beginning is wasn't to much, but got quickly out of control until I limited it. The next step was creating my back-end and later the front-end. Of course redesigning happened a lot  in order to create the best possible application.",
+      "paragraph2": "During this project I've learned a lot of new ways to code, or technologies to use. Thanks to my internship I could use in both front-end as in back-end skills that I didn't knew before. The next thing I have tried to understand was hosting. for the first time I hosted my application on Amazon Web Services, and took a while until I figured things out. In the end I am really proud of what I created and hope to maintain it as a learning guide."
     }
   }
 }

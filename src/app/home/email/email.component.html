@@ -1,0 +1,31 @@
+<form [formGroup]="mailForm" class="mt-6" (ngSubmit)="sendEmail(formDirective)" #formDirective="ngForm">
+  <div class="grid grid-cols-2 grid-rows-3 gap-2 mx-4">
+    <mat-form-field>
+      <mat-label>{{ 'home.footer.nameLabel' | translate }}</mat-label>
+      <input matInput placeholder="{{ 'home.footer.namePlaceholder' | translate }}" [formControlName]="nameControl">
+      <mat-error *ngIf="mailForm.get(nameControl).invalid">{{ getNameErrorMessage() }}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>{{ 'home.footer.emailLabel' | translate }}</mat-label>
+      <input matInput placeholder="{{ 'home.footer.emailPlaceholder' | translate }}" [formControlName]="emailControl">
+      <mat-error
+        *ngIf="mailForm.get(emailControl).invalid">{{ getEmailErrorMessage()}}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="col-span-2">
+      <mat-label>{{ 'home.footer.messageLabel' | translate }}</mat-label>
+      <textarea matInput maxlength="1024" placeholder="{{ 'home.footer.messagePlaceholder' | translate }}" [formControlName]="msgControl"></textarea>
+      <mat-hint align="end">{{ mailForm.get(msgControl).value?.length || 0 }}/1024</mat-hint>
+      <mat-error *ngIf="mailForm.get(msgControl).invalid">{{getMessageErrorMessage()}}</mat-error>
+    </mat-form-field>
+
+    <div class="text-right col-start-2">
+      <button [disabled]="!mailForm.valid"
+              [ngClass]="!mailForm.valid ? 'cursor-not-allowed bg-white text-slate-400': 'cursor-pointer bg-blue-600 text-white hover:text-black'"
+              class="p-2  rounded-lg hover:bg-white border transition-all duration-600">
+       {{ 'home.footer.sendButton' | translate }}
+      </button>
+    </div>
+  </div>
+</form>
