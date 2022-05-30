@@ -68,7 +68,7 @@
     },
     "geo": {
       "name": "Geolocation",
-      "paragraph1": "This project was made in my free time. My father cooperates with the archive of Geel, and he wanted a way to show where a plot used to be located. This project is just in its baby shoes, because there are 6 other maps left to reference.",
+      "paragraph1": "This project was made in my free time. My father cooperates with the archive of Geel, and he wanted a way to show where a plot used to be located. For now this project is still a startup, because there are 6 other maps left to reference.",
       "paragraph2": "Working at this project I have learned how to reference an old map with a more up‐to‐date map or vice versa. I again learned how to interact with a client, even if it was my father (and indirect to the archive) we had to communicate and make decisions. This project was made in QGIS which has a lot to offer. With this programme you can reference, draw shape layers, select data, and a possibility to export it. Down below, you can find a full demo of the project."
     },
     "lm": {
@@ -84,7 +84,7 @@
     "f1": {
       "name": "F1-Stats",
       "paragraph1": "The project started with an API I found on the internet, but it took way too long until it was updated. So the next logical step for me was to create my own. I first started drawing my database, so I know what I needed to store. In the beginning it wasn't to much, but got quickly out of control until I limited it. The next step was creating my back-end and later the front-end. Of course redesigning happened a lot  in order to create the best possible application.",
-      "paragraph2": "During this project I've learned a lot of new ways to code, or technologies to use. Thanks to my internship, I could use in both back- and front-end skills that I didn't knew before. The next thing I have tried to understand was hosting. For the first time I hosted my application on Amazon Web Services, it took a while until I figured things out. In the end I am really proud of what I created and hope to maintain it as a learning guide."
+      "paragraph2": "During this project I've learned a lot of new ways to code, or technologies to use. Thanks to my internship, I could use in both back- and front-end skills that I didn't knew before. The next thing I have tried to understand was hosting. For the first time I hosted my application on Amazon Web Services, it< took a while until I figured things out. In the end I am really proud of what I created and hope to maintain it as a learning guide."
     }
   }
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -6,7 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './navigation.component.html',
   styleUrls: ['./navigation.component.css'],
 })
-export class NavigationComponent {
+export class NavigationComponent implements OnInit, AfterViewInit {
   readonly PREFIX: string = 'MVE';
   currentLang = 'en';
 
@@ -19,6 +19,20 @@ export class NavigationComponent {
 
     const browserLang = localStorage.getItem(`${this.PREFIX}_lang`) || 'en';
     translate.use(browserLang.match(/en|nl/) ? browserLang : 'en');
+  }
+
+  ngOnInit(): void {
+    const nav = document.getElementById('menu');
+    nav.classList.add('hidden');
+  }
+
+  ngAfterViewInit(): void {
+    document.onclick = (args: any): void => {
+      if (args.target.tagName !== 'SPAN' && args.target.tagName !== 'BUTTON' && args.target.tagName !== 'SELECT') {
+        const nav = document.getElementById('menu');
+        nav.classList.add('hidden');
+      }
+    };
   }
 
   navToggle(): void {

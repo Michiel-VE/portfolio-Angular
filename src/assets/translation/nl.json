@@ -12,7 +12,7 @@
     },
     "about": {
       "title": "Over mij",
-      "paragraph1": "Ik ben een 22-jarige student geïnteresseerd in IT en alles dat te maken heeft met programmeren. Dit was de reden dat ik toegepaste informatica ben gaan studeren aan de Thomas More hogeschool in Geel. Een programma schrijven gebaseerd op de eisen van een vriend, ouder of klant, is mijn favoriete bezigheid.",
+      "paragraph1": "Ik ben een 22-jarige student, die geïnteresseerd in IT en alles dat te maken heeft met programmeren. Dit was de reden dat ik toegepaste informatica ben gaan studeren aan de Thomas More hogeschool in Geel. Een programma schrijven gebaseerd op de vragen van een vriend, ouder of klant, is mijn favoriete bezigheid.",
       "paragraph2": "Nu hoop ik mijn kennis uit te breiden. Mijn ultime doel is om in Finland te studeren en mijn cyber-security skills te verbeteren. De reden voor deze stap is dat ik verliefd werd op het land en de mentaliteit tijdens mijn uitwisseling.",
       "paragraph3": "Natuurlijk is programmeren niet het enige wat ik doe. Mijn hobby is judo en hier kan ik mezelf echt zijn. In onze hechte club probeert iedereen elkaar te helpen en elk jaar organiseren we een quiz om elkaar uit te dagen."
     },
@@ -21,8 +21,8 @@
     },
     "internship": {
       "title": "Stage JUVO",
-      "paragraph1": "Het doel van deze stage was om een applicatie te maken voor de HR afdeling, zodat deze de verwerving van nieuwe werknemers kan versnellen. Nu kan iemand zijn/haar cv uploaden en een via tekst-herkenning wordt de meeste data gevonden zoals: opleidingen, vorige werk ervaringen en de skills.",
-      "paragraph2": "Dankzij deze stage heb ik veel technologiën en nieuwe skills kunnen leren. Onderandere weet ik nu hoe een standup meeting werkt, demonstraties geven aan de klant en betere en geoptimalizeerde code schrijven.",
+      "paragraph1": "Het doel van deze stage was om een applicatie te maken voor de HR afdeling, zodat deze de verwerving van nieuwe werknemers kan versnellen. Met deze applicatie kan iemand zijn/haar cv uploaden en een via tekst-herkenning wordt de meeste data gevonden zoals: opleidingen, vorige werk ervaringen en de skills.",
+      "paragraph2": "Dankzij deze stage heb ik veel technologieën en nieuwe skills kunnen leren. Onder andere weet ik nu hoe een stand-up meeting werkt, demonstraties geven aan de klant en hoe ik betere en geoptimaliseerde code schrijven.",
       "PoA": "Plan van aanpak",
       "realization": "Realisatie",
       "reflection": "Reflectie"
@@ -65,28 +65,27 @@
     "back": "Ga terug",
     "php": {
       "name": "Project PHP",
-      "paragraph1": "Dit was een vervolg-project van het vak Eisen-Analyse (RA). Bij dit project konden we onze theoretische kennis omzetten in praktijk. Natuurlijk mochten we niet ons eigen project gebruiken omdat we daar voorkennis van hadden. Dankzij dit konden we het leerproces van beide kanten leren. Dit project was ook het eerste dat ik niet voor mezelf maakte.",
-      "paragraph2": "Het belangrijkste dat ik leerde tijdens dit project was de communicatie tussen collega's en de klant. Als je jezelf niet duidelijk kon maken, kunnen andere je niet helpen of begrijpen. Dit telt ook voor de klant als hij je niet begrijpt kan de applicatie niet ten volle benut worden. Het is ook zeker belangrijk dat je leert vragen, omdat alles veel duidelijker wordt en collega's weten waar je vast zit."
+      "paragraph1": "Het project was ook het eerste dat ik niet voor mezelf maakte .Dit was een vervolg-project van het vak Eisen-Analyse (RA). Bij dit project konden we onze theoretische kennis omzetten naar de praktijk. Hierbij werdt er een project van een andere groep gebruikt omdat we van ons eigen project te veel voorkennis hadden. Dankzij dit konden we het leerproces van beide kanten leren.",
+      "paragraph2": "Het belangrijkste dat ik leerde tijdens dit project was de communicatie tussen collega's en de klant. In dit project was het belangrijk om jezelf goed uit te drukken en duidelijk te maken wat je bedoeld of hoe de applicatie werkt. Zo kan je hulp krijgen van collega’s of feedback van de klant en kan de applicatie ten volle benut worden. Verder is het ook belangrijk om hulp te durven vragen, zodat alles veel duidelijker wordt en collega’s weten waar je vast loopt en het probleem snel opgelost raakt. "
     },
     "geo": {
       "name": "Geolocatie",
-      "paragraph1": "Dit project was gemaakt in mijn vrije tijd. Mijn vader werkt samen met het achrief van Geel, en hij wou graag een applicatie waarbij er data uit 1834 op een hedendaagse kaart toont. Dit project is nog maar pril, omdat er nog 6 andere kaarten zijn.",
-      "paragraph2": "Door aan dit project te werken leerde ik hoe je een kaart refereert met een andere/huidige kaart. Ook was dit een goede oefening om mijn communicatie te oefenen, zelfs al was dit met mijn vader, om zo beslissingen te nemen. Alles werd gemaakt in QGIS dat veel aan te bieden heeft op basis van dataverwerking. Op onderstaande link kan je het resultaat vinden."
+      "paragraph1": "Dit project heb ik gemaakt in mijn vrije tijd, in opdracht van mijn vader. Hij werkt samen met het archief van Geel en wou graag een applicatie waarbij data uit 1834 op een hedendaagse kaart wordt getoond. Op lange termijn wordt dit project nog uitgebreid zodat er 6 kaarten zijn te zien. Door aan dit project te werken leerde ik hoe je een kaart refereert met een andere/huidige kaart. Ook was dit een goede oefening om mijn communicatie te oefenen, zelfs al was dit met mijn vader, om zo beslissingen te nemen. Alles werd gemaakt in QGIS dat veel aan te bieden heeft op basis van dataverwerking. Op onderstaande link kan je het resultaat vinden."
     },
     "lm": {
       "name": "LM-Sounds",
       "paragraph1": "LM-Sounds is een website gemaakt voor een vriend. We begonnen te praten over websites en hoe hij er altijd al één wou. Omdat ik graag mensen help, en met mijn achtergrond in IT, was ik geïnteresseerd. Met een aantal directe vragen kon ik al snel een MoSCoW opstellen.",
-      "paragraph2": "Ik heb heel erg van het programmeren genoten, maar ook erg van het helpen van anderen. We proberen hem ook te ondersteunen en de website up-to-date te houden en er zeker van te zijn dat de hosting altijd online is."
+      "paragraph2": "Ik heb heel erg van het programmeren genoten, maar ook erg van het helpen van anderen. Ik probeer hem ook te ondersteunen en de website up-to-date te houden en er zeker van te zijn dat de hosting altijd online is."
     },
     "br": {
       "name": "Beverage Rater",
-      "paragraph1": "Het plan van aanpak was om eerst een globaal idee zoeken. Dit ging snel omdat we al een aantal ideeën hadden van vorige brainstorms. Na de opdracht was uitgelegd, was de volgende stap was een MoSCoW opstellen. Dankzij deze MoSCoW makkelijk onze prioriteiten opstellen. Nadien creërde we een sketch. Omdat ik nog niet veel ervaring had was dit een van de moeilijkste taken. Dit was wel een goede manier om Figma te leren gebruiken.",
-      "paragraph2": "Eenmaal het coderen kon starten was het project redelijk makkelijk voor mij. Met af en toe een probleem was het hele programma snel geschreven. Dankzij onze voorbereiding leerde ik vele nieuwe technologiën te gebruiken, en kon ik me aan het tijdschema houden."
+      "paragraph1": "Eerst een globaal idee zoeken, dit ging snel omdat we al een aantal ideeën hadden van vorige brainstorms. Vervolgens werd er een MoSCoW opgesteld zodat we vlot onze prioriteiten konden opstellen. Nadien creërden we een sketch. Omdat ik nog niet veel ervaring had was dit een van de moeilijkste taken. Dit was wel een goede manier om Figma te leren gebruiken.",
+      "paragraph2": "Eenmaal het coderen kon starten was het project redelijk makkelijk voor mij. Met af en toe een probleem was het hele programma snel geschreven. Dankzij onze voorbereiding leerde ik vele nieuwe technologieën te gebruiken, en kon ik me aan het tijdschema houden."
     },
     "f1": {
       "name": "F1-Stats",
-      "paragraph1": "Het project startte toen ik een API vond op het internet, maar te lang duurde tegen het geüpdatet werd. Hierdoor dacht ik zelf een API te maken zodat ik altijd zo snel mogelijk alles kan updaten. Ik begon eerst met mijn database te tekenen, zo wist ik wat ik kon opslagen. In het begin was de database nog niet groot, maar dit liep snel uit de hand tot ik dit limiteerde. Vervolgens kon ik de back-end coderen en later ook de front-end. Natuurlijk is er gaandeweg het project heel wat code herschreven.",
-      "paragraph2": "Tijdens dit project heb ik vele nieuwe manieren van coderen ontdekt en nieuwe technieken leren gebruiken. Dankzij deze stage kon ik zowel in back- als in front-end mijn nieuwe skills gebruiken. Als hosting ben ik ook een nieuwe route ingeslagen: Amazon Web Services. Dit was de eerste keer dat ik dit gebruikte, dus het was moeilijk om alles juist uit te zoeken. Over het algemeen ben ik trots met wat ik hier heb gemaakt."
+      "paragraph1": "Het project startte toen ik een API vond op het internet, maar te lang duurde tegen het geüpdatet werd. Hierdoor kwam ik op het idee om zelf een API te maken zodat ik altijd zo snel mogelijk alles kan updaten. Ik begon eerst met mijn database te tekenen, zo wist ik wat ik kon opslagen. In het begin was de database nog niet groot, maar dit liep snel uit de hand tot ik dit limiteerde. Vervolgens kon ik de back-end coderen en later ook de front-end. Natuurlijk is er gaandeweg het project heel wat code herschreven.",
+      "paragraph2": "Tijdens dit project heb ik vele nieuwe manieren van coderen ontdekt en nieuwe technieken leren gebruiken. Dankzij de kennis die ik verworven heb op mijn stage, kon ik zowel in back- als in front-end mijn nieuwe skills gebruiken. Als hosting ben ik ook een nieuwe route ingeslagen: Amazon Web Services. Dit was de eerste keer dat ik dit gebruikte, dus het was moeilijk om alles juist uit te zoeken. Over het algemeen ben ik trots op wat ik hier heb gemaakt."
     }
   }
 }

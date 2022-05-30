@@ -11,7 +11,7 @@
           {{ 'projects.geo.paragraph1' | translate }}
         </p>
       </div>
-      <div class="mx-4 md:mx-32">
+      <div *ngIf=" ('projects.geo.paragraph2' | translate) !== 'projects.geo.paragraph2'" class="mx-4 md:mx-32">
         <p class="text-justify mb-8">
           {{ 'projects.geo.paragraph2' | translate }}
         </p>
