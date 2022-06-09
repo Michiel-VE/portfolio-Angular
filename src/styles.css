@@ -16,3 +16,11 @@
   background-color: #c4bcbc;
   border-radius: 10px;
 }
+
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
+h1, h2, h4, h5, h6 {
+  font-family: 'Tiro Gurmukhi', serif;
+}
