@@ -1,13 +1,13 @@
-import { NgModule } from '@angular/core';
-import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 
-import { HomeModule } from './home/home.module';
-import { BeverageRaterModule } from './projects/beverage-rater/beverage-rater.module';
-import { DakreinigingLmModule } from './projects/dakreiniging-lm/dakreiniging-lm.module';
-import { F1Module } from './projects/f1/f1.module';
-import { GeolocationModule } from './projects/geolocation/geolocation.module';
-import { LmSoundsModule } from './projects/lm-sounds/lm-sounds.module';
-import { PhpModule } from './projects/php/php.module';
+import {HomeModule} from './home/home.module';
+import {BeverageRaterModule} from './projects/beverage-rater/beverage-rater.module';
+import {DakreinigingLmModule} from './projects/dakreiniging-lm/dakreiniging-lm.module';
+import {F1Module} from './projects/f1/f1.module';
+import {GeolocationModule} from './projects/geolocation/geolocation.module';
+import {LmSoundsModule} from './projects/lm-sounds/lm-sounds.module';
+import {PhpModule} from './projects/php/php.module';
 
 const routes: Routes = [
   {
@@ -47,6 +47,11 @@ const routes: Routes = [
   },
   {
     path: '',
+    loadChildren: () => import('./home/home.module')
+      .then((m: { HomeModule: HomeModule }) => m.HomeModule),
+  },
+  {
+    path: '**',
     loadChildren: () => import('./home/home.module')
       .then((m: { HomeModule: HomeModule }) => m.HomeModule),
   },
