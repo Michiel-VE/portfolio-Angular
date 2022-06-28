@@ -1,24 +1,27 @@
-<section id="about" class="mx-8 mb-8 md:px-8 md:pl-20 min-h-screen">
-  <h2 class="text-4xl small-caps font-semibold md-2 md:mb-4 text-center pt-24">
-    {{ 'home.about.title' | translate }}
-  </h2>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-x-16 items-center justify-center pt-12 w-full md:w-3/4 m-auto">
-    <div class="col-span-2 m-auto">
-      <div class="text-justify">
-        <p>
-          {{ 'home.about.paragraph1' | translate }}
-        </p>
-        <p class="mt-2 md:mt-8">
-          {{ 'home.about.paragraph2' | translate }}
-        </p>
-        <p class="mt-2 md:mt-8">
-          {{ 'home.about.paragraph3' | translate }}
-        </p>
+<section id="about" class="mx-8 mb-4 md:pl-20 min-h-screen flex">
+  <div class="my-auto">
+    <h2 class="text-4xl small-caps font-semibold md-2 md:mb-4 text-center pt-16">
+      {{ 'home.about.title' | translate }}
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-16 items-center justify-center pt-12 w-full md:w-3/4 m-auto">
+      <div class="md:col-span-2 m-auto">
+        <div class="text-justify">
+          <p>
+            {{ 'home.about.paragraph1' | translate }}
+          </p>
+          <p class="mt-2 md:mt-8">
+            {{ 'home.about.paragraph2' | translate }}
+          </p>
+          <p class="mt-2 md:mt-8">
+            {{ 'home.about.paragraph3' | translate }}
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="my-8 md:mt-8">
-      <img loading="lazy" class="rounded-full m-auto" src="assets/img/michiel.webp" width="225" height="239" alt="Michiel Van Eynde">
+      <div class="my-8 md:mt-8">
+        <img loading="lazy" class="rounded-full m-auto" src="assets/img/michiel.webp" width="225" height="239"
+             alt="Michiel Van Eynde">
+      </div>
     </div>
   </div>
 </section>
