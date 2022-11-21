@@ -10,13 +10,13 @@ import { Project } from '../../../interfaces/project';
 })
 export class ProjectsComponent {
   projects_en: Project[] = [
-    {
-      name: 'Project PHP',
-      img: 'php',
-      url: 'php',
-      description: 'A platform to promote internationalisation.',
-      completed: true,
-    },
+    // {
+    //   name: 'Project PHP',
+    //   img: 'php',
+    //   url: 'php',
+    //   description: 'A platform to promote internationalisation.',
+    //   completed: true,
+    // },
     {
       name: 'Geolocation',
       img: 'geo',
@@ -55,13 +55,13 @@ export class ProjectsComponent {
   ];
 
   projects_nl: Project[] = [
-    {
-      name: 'Project PHP',
-      img: 'php',
-      url: 'php',
-      description: 'Een platform om internationalisering te promoten.',
-      completed: true,
-    },
+    // {
+    //   name: 'Project PHP',
+    //   img: 'php',
+    //   url: 'php',
+    //   description: 'Een platform om internationalisering te promoten.',
+    //   completed: true,
+    // },
     {
       name: 'Geolocatie',
       img: 'geo',

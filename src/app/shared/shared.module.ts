@@ -11,6 +11,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ToastNotificationsModule } from 'ngx-toast-notifications';
 
 import { AboutMeComponent } from '../home/about-me/about-me.component';
+import { BloodComponent } from '../home/blood/blood.component';
 import { EmailComponent } from '../home/email/email.component';
 import { FooterComponent } from '../home/footer/footer.component';
 import { InternshipComponent } from '../home/internship/internship.component';
@@ -37,6 +38,7 @@ export const createTranslateLoader = (http: HttpClient): TranslateHttpLoader => 
     ProjectNavComponent,
     InternshipComponent,
     EmailComponent,
+    BloodComponent,
   ],
   imports: [
     CommonModule,
@@ -64,6 +66,7 @@ export const createTranslateLoader = (http: HttpClient): TranslateHttpLoader => 
     NavigationComponent,
     InternshipComponent,
     EmailComponent,
+    BloodComponent,
   ],
 })
 export class SharedModule {

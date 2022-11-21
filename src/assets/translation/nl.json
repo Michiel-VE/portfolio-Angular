@@ -12,9 +12,9 @@
     },
     "about": {
       "title": "Over mij",
-      "paragraph1": "Ik ben een 22-jarige student, die geïnteresseerd in IT en alles dat te maken heeft met programmeren. Dit was de reden dat ik toegepaste informatica ben gaan studeren aan de Thomas More hogeschool in Geel. Een programma schrijven gebaseerd op de vragen van een vriend, ouder of klant, is mijn favoriete bezigheid.",
+      "paragraph1": "Ik ben een gemotiveerde student, die geïnteresseerd in IT en alles dat te maken heeft met programmeren. Dit was de reden dat ik toegepaste informatica studeerde aan de Thomas More hogeschool in Geel. Een programma schrijven gebaseerd op de vragen van een vriend, ouder of klant, is mijn favoriete bezigheid.",
       "paragraph2": "Nu kan ik mijn kennis meer uitbreiden: Ik ben toegelaten om te studeren in JAMK, Finland waar ik mijn cyber-security skills hoop te verbeteren. De reden waarom hiervoor solliciteerde is dat ik verliefd werd op het land en de mentaliteit tijdens mijn uitwisseling.",
-      "paragraph3": "Natuurlijk is programmeren niet het enige wat ik doe. Mijn hobby is judo, maar ben recent terug begonnen met zwemmen. Hier heb ik nooit de intentie gehad om de beste te zijn, maar gewoon plezier maken en nieuwe mensen te ontmoeten. Soms zet ik bepaalde doelen voor mezelf, zoals nu, proberen om onder de minuut te zwemmen op 100 meter."
+      "paragraph3": "Natuurlijk is programmeren niet het enige wat ik doe. Mijn hobby is judo, maar ben recent terug begonnen met zwemmen. Hier heb ik nooit de intentie gehad om de beste te zijn, maar gewoon plezier maken en nieuwe mensen te ontmoeten. Ik probeer geëngageerd te zijn binnen en buiten school activiteiten, bv. bloed doneren en nieuwe studenten begeleiden als tutor"
     },
     "projects": {
       "name": "Mijn Projecten"
@@ -87,5 +87,9 @@
       "paragraph1": "Het project startte toen ik een API vond op het internet, maar te lang duurde tegen het geüpdatet werd. Hierdoor kwam ik op het idee om zelf een API te maken zodat ik altijd zo snel mogelijk alles kan updaten. Ik begon eerst met mijn database te tekenen, zo wist ik wat ik kon opslagen. In het begin was de database nog niet groot, maar dit liep snel uit de hand tot ik dit limiteerde. Vervolgens kon ik de back-end coderen en later ook de front-end. Natuurlijk is er gaandeweg het project heel wat code herschreven.",
       "paragraph2": "Tijdens dit project heb ik vele nieuwe manieren van coderen ontdekt en nieuwe technieken leren gebruiken. Dankzij de kennis die ik verworven heb op mijn stage, kon ik zowel in back- als in front-end mijn nieuwe skills gebruiken. Als hosting ben ik ook een nieuwe route ingeslagen: Amazon Web Services. Dit was de eerste keer dat ik dit gebruikte, dus het was moeilijk om alles juist uit te zoeken. Over het algemeen ben ik trots op wat ik hier heb gemaakt."
     }
+  },
+  "donate": {
+    "title": "Waarom niet doneren?",
+    "link": "https://www.rodekruis.be/wat-kan-jij-doen/geef-bloed-of-plasma/"
   }
 }
