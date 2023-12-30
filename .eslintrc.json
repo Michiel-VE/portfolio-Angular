@@ -1,7 +1,9 @@
 {
   "root": true,
   "ignorePatterns": [
-    "src/assets/*"
+    "src/*.*",
+    "src/environments/*",
+    "src/testing/*"
   ],
   "overrides": [
     {
@@ -16,14 +18,9 @@
       },
       "extends": [
         "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/ng-cli-compat",
-        "plugin:@angular-eslint/ng-cli-compat--formatting-add-on",
         "plugin:@angular-eslint/template/process-inline-templates",
         "plugin:import/recommended",
         "plugin:import/typescript"
-      ],
-      "plugins": [
-        "unused-imports"
       ],
       "rules": {
         "quotes": [
@@ -68,11 +65,12 @@
             ],
             "newlines-between": "always",
             "alphabetize": {
-              "order": "asc",
+              "order": "desc",
               "caseInsensitive": true
             }
           }
         ],
+        "import/no-unresolved": "off",
         "@typescript-eslint/array-type": [
           "error",
           {
@@ -101,6 +99,22 @@
             "arrowParameter": true,
             "parameter": true,
             "propertyDeclaration": true
+          }
+        ],
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "type": "attribute",
+            "prefix": "app",
+            "style": "camelCase"
+          }
+        ],
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "prefix": "app",
+            "style": "kebab-case"
           }
         ],
         "no-multiple-empty-lines": "error",

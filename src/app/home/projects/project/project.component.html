@@ -1,36 +1,45 @@
-<div *ngIf="project.completed; else notCompleted" class="rounded-xl overflow-hidden card">
-  <a class="hover:no-underline" href="/projects/{{ project.url }}" target="_blank">
-    <div class="bg-{{ project.img }} bg-cover bg-top h-72">
-      <div class="w-full h-full flex items-end">
-        <div
-          class="px-4 bg-black opacity-80 pb-2 text-white w-full transform lg:translate-y-8 transition-all text">
-          <div class="flex justify-between">
-            <h3 class="text-xl small-caps text-white font-semibold py-2">
-              {{ project.name }}
-            </h3>
-            <i class="fas fa-info-circle mt-2 hover:text-gray-500"></i>
-          </div>
-          <p class="w-full">{{ project.description }}</p>
-        </div>
+<div *ngIf="project.completed; else notCompleted"
+     class="rounded-xl overflow-hidden card group focus:outline-none focus:ring focus:ring-blue-900" tabindex="0">
+  <div class="bg-{{ project.img }} bg-cover bg-top h-80 md:h-72 lg:h-80 relative">
+    <div (click)="more()"
+         class="bg-black h-full opacity-80 w-full text-white px-4 transform transition-all cursor-pointer"
+         [class]="moreInfo ? 'translate-y-0': 'translate-y-64 md:translate-y-48 lg:translate-y-64 group-hover:translate-y-48 group-focus:translate-y-48'">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl small-caps font-semibold py-2">
+          {{project.name}}
+        </h3>
+        <i class="hover:text-gray-500" [class]="moreInfo? 'fas fa-times':'fas fa-info-circle '"></i>
       </div>
+      <div class="py-4 text-justify">
+        <p *ngIf="!moreInfo; else fullText">{{project.paragraph1 | truncate:[170]}}</p>
+        <ng-template #fullText>{{project.paragraph1}}</ng-template>
+      </div>
+      <p class="hidden sm:block lg:hidden xl:block">
+        {{project.paragraph2}}
+      </p>
+      <div class="absolute bottom-2 left-4">
+        <a href="{{project.link}}"
+           target="_blank">{{'home.projects.result' | translate}}</a>
+
+        <a class="px-2" *ngIf="project.link2" href="{{project.link}}">{{'home.projects.result2' | translate}}</a>
+      </div>
+
     </div>
-  </a>
+  </div>
 </div>
 
 <ng-template #notCompleted>
-  <div class="rounded-xl overflow-hidden cursor-not-allowed card md:mb-10">
-    <div class="hover:no-underline inline">
-      <div class="bg-{{project.img}} bg-cover bg-bottom h-72">
-        <div class="w-full h-full flex items-end">
-          <div class="px-4 bg-black opacity-80 text-white w-full pb-2 transform lg:translate-y-8 transition-all text">
-            <div class="flex justify-between">
-              <h3 class="text-xl small-caps text-white font-semibold py-2">
-                {{ project.name }}
-              </h3>
-              <i class="fas fa-info-circle mt-2 hover:text-gray-500"></i>
-            </div>
-            <p class="w-full">{{ project.description }}</p>
-          </div>
+  <div class="rounded-xl overflow-hidden card group focus:outline-none focus:ring focus:ring-blue-900" tabindex="0">
+    <div class="bg-{{ project.img }} bg-cover bg-top h-80 md:h-72 lg:h-80 relative">
+      <div class="bg-black h-full opacity-80 w-full text-white px-4 transform transition-all cursor-pointer translate-y-64 md:translate-y-48 lg:translate-y-64 group-hover:translate-y-48 group-focus:translate-y-48">
+        <div class="flex justify-between items-center">
+          <h3 class="text-xl small-caps font-semibold py-2">
+            {{project.name}}
+          </h3>
+          <i class="hover:text-gray-500"></i>
+        </div>
+        <div class="py-4 text-justify">
+          <p>{{'home.projects.progress' | translate}}</p>
         </div>
       </div>
     </div>

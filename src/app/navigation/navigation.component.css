@@ -1,0 +1,13 @@
+.scroll-progress {
+  scale: 0 1;
+
+  animation: progress linear;
+  animation-timeline: scroll();
+
+}
+
+@keyframes progress {
+  to {
+    scale: 1 1;
+  }
+}

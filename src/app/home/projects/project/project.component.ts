@@ -9,4 +9,12 @@ import { Project } from '../../../../interfaces/project';
 })
 export class ProjectComponent {
   @Input() project!: Project;
+  moreInfo = false;
+  linkClicked= false
+
+  more = ():void => {
+    if (!this.linkClicked){
+      this.moreInfo = !this.moreInfo
+    }
+}
 }

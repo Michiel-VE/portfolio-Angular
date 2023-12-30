@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-blood',
   templateUrl: './blood.component.html',
-  styleUrls: ['./blood.component.css']
+  styleUrls: ['./blood.component.css'],
 })
-export class BloodComponent implements OnInit {
+export class BloodComponent  {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
 
 }

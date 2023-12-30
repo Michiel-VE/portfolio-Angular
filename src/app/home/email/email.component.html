@@ -1,12 +1,12 @@
 <form [formGroup]="mailForm" class="mt-6" (ngSubmit)="sendEmail(formDirective)" #formDirective="ngForm">
-  <div class="grid grid-cols-2 grid-rows-3 gap-2 mx-4">
-    <mat-form-field>
+  <div class="grid grid-cols-2 md:grid-rows-3 gap-2 mx-4">
+    <mat-form-field class="col-span-2 sm:col-span-1">
       <mat-label>{{ 'home.footer.nameLabel' | translate }}</mat-label>
       <input matInput placeholder="{{ 'home.footer.namePlaceholder' | translate }}" [formControlName]="nameControl">
       <mat-error *ngIf="mailForm.get(nameControl).invalid">{{ getNameErrorMessage() }}</mat-error>
     </mat-form-field>
 
-    <mat-form-field>
+    <mat-form-field class="col-span-2 sm:col-span-1">
       <mat-label>{{ 'home.footer.emailLabel' | translate }}</mat-label>
       <input matInput placeholder="{{ 'home.footer.emailPlaceholder' | translate }}" [formControlName]="emailControl">
       <mat-error

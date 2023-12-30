@@ -2,7 +2,6 @@
   "nav": {
     "about": "About Me",
     "projects": "Projects",
-    "internship": "Internship",
     "skills": "Skills",
     "social": "Contact me"
   },
@@ -12,20 +11,15 @@
     },
     "about": {
       "title": "About Me",
-      "paragraph1": "I'm a motivated student interested in IT and everything to do with programming. That's why I chose to study Applied Informatics at Thomas More Geel. Just writing a program form scratch based on the needs of a friend, parent or client, is the thing I like the most.",
-      "paragraph2": "And now I am expanding my knowledge even more: I am accepted to study at JAMK, Finland where I hope to improve my cyber-security skills. The reason why I applied is because I wanted to continue learning but also fell in love with the country and mentality during my exchange.",
-      "paragraph3": "Of course programming is not the only thing I do. My hobby is judo but I started swimming again. I had never the intention to be the best, but just having fun and make new friends. I try to be engaged in all extra events in and out of school, ex. donating blood and becoming a tutor"
+      "paragraph1": "I'm a almost graduated student whom is interested in IT and everything to do with programming. That's why I chose to study Information and Communication Technologies at Thomas More (Belgium) & JAMK (Finland). Just writing a program form scratch based on the needs of a friend, parent or client, is the thing I like the most.",
+      "paragraph2": "With a second bachelor, I hope to improve my communication, team-skills and general knowledge. Of course programming is not the only thing I do. Judo will be always close to my heart, but jumping into a swimming pool is also not bad!",
+      "paragraph3": "My personality is having fun and make new friends and finish what I've started. I try to be engaged in all extra events in and out of school, ex. donating blood or tutoring or join the student union's board."
     },
     "projects": {
-      "name": "My Projects"
-    },
-    "internship": {
-      "title": "Internship JUVO",
-      "paragraph1": "The goal of this internship was to make an application for HR, to improve their acquisition of new employees. Now someone can upload their resume, and an automated text-recognizer will return most of the data like: educations, previous work experiences and skills." ,
-      "paragraph2": "In this internship I learned a lot of new skills and technologies. I learned how to have a stand-up meeting, give demonstrations to clients and write more optimized code." ,
-      "PoA": "Plan of approach",
-      "realization": "Realization",
-      "reflection": "Reflection"
+      "name": "My Projects",
+      "result": "Visit project",
+      "result2": "or visit here",
+      "progress": "Currently in development"
     },
     "skills": {
       "skillTitle": "Skills",
@@ -59,32 +53,38 @@
     }
   },
   "projects": {
-    "result": "View Result",
-    "back": "Go back",
-    "php": {
-      "name": "Project PHP",
-      "paragraph1": "This is the follow-up project of Requirement Analysis (RA). Now it was time to use our practical skills and turn the theory into a web application for a client. We weren't allowed to use our own RA project, but we had to use the documentary from another group. This way we learn both ways, the setup and the practical. This project was the first where I didn't make something for myself.",
-      "paragraph2": "What I learned during this project is: communicating to our colleagues and to a client. If you can't make yourself clear, others won't be able to help you. Also, if your client doesn't understand you and vice versa the web application will not be at its full potential. Another thing I learned is to ask for help. We are learning, and we don't know everything about PHP, Laravel or AJAX."
-    },
     "geo": {
+      "completed": true,
+      "img": "geo",
       "name": "Geolocation",
-      "paragraph1": "This project was made in my free time. My father cooperates with the archive of Geel, and he wanted a way to show where a plot used to be located. For now this project is still a startup, because there are 6 other maps left to reference.",
-      "paragraph2": "Working at this project I have learned how to reference an old map with a more up‐to‐date map or vice versa. I again learned how to interact with a client, even if it was my father (and indirect to the archive) we had to communicate and make decisions. This project was made in QGIS which has a lot to offer. With this programme you can reference, draw shape layers, select data, and a possibility to export it. Down below, you can find a full demo of the project."
+      "paragraph1": "This project was made in my free time. My father collaborates with the archive of Geel (Belgium), and he wanted a way to show where a plot used to be located. For now this project is still a startup, because there are 6 other maps left to reference.",
+      "paragraph2": "Working at this project I have learned how to reference an old map with a more up‐to‐date map or vice versa. This project was made in QGIS which has a lot to offer. With this programme you can reference, draw shape layers, select data, and a possibility to export it.",
+      "link":"assets/Map_data/index.html"
     },
     "lm": {
+      "completed": true,
+      "img": "lm",
       "name": "LM-Sounds",
-      "paragraph1": "LM-Sounds is a website made for a friend. We started talking about websites and how he always needed one. Because I want to help and with my background in IT I was interested in creating one, so I started making a MoSCoW to prioritize.",
-      "paragraph2": "I really enjoyed this project, not only to create a website but also to help a friend and support him in the long run. We also keep the website up to date and try to make sure the hosting is always online."
+      "paragraph1": "LM-Sounds is a website made for a friend. We started talking about websites and how he always needed one. Because I want to help and with my background in IT I was interested in creating one, so I started making a MoSCoW to prioritize what was needed.",
+      "paragraph2": "I really enjoyed this project, not only to create a website but also to help a friend and support him in the long run. We also keep the website up to date and try to make sure the hosting is always online.",
+      "link": "https://lm-sounds.be/"
     },
     "br": {
-      "name": "Berverage Rater",
-      "paragraph1": "The plan of approach was to get a global idea first. This was pretty easy because there were already a few ideas laying around. After the assignment was given, the next step was to set up a MoSCoW analysis. Thanks to this analysis we could easily determine our priorities. Before the coding, a sketch had to be made. Not having a lot of experience in this field, this task was more difficult. At first, I started on paper, so I had a basic idea. Later the project was drawn in Figma to get the correct colors and spacings.",
-      "paragraph2": "Generally this project wasn't to difficult for me. Once I had figured out how everything worked, programming the app went like a charm. Of course there were a few hiccups but after a day (if it was a big one) it was solved. Thanks to this project I really learned how to sketch an idea and make it user-friendly, so it can be easily accessible for them. Also, it was important to follow your time schedule."
+      "completed": true,
+      "img": "br",
+      "name": "Beverage Rater",
+      "paragraph1": "During this project I learned working with figma and prioritizing the important parts of an application. Using figma for this made it easier to select a color-palette and made it easier to turn your idea into a application.",
+      "paragraph2": "Thanks to this project I really learned how to sketch an idea and make it user-friendly, so it can be easily accessible for a visitor. Also, it was important to follow your time schedule.",
+      "link": "https://beverage-rat.firebaseapp.com/"
     },
     "f1": {
+      "completed": true,
+      "img": "f1",
       "name": "F1-Stats",
-      "paragraph1": "The project started with an API I found on the internet, but it took way too long until it was updated. So the next logical step for me was to create my own. I first started drawing my database, so I know what I needed to store. In the beginning it wasn't to much, but got quickly out of control until I limited it. The next step was creating my back-end and later the front-end. Of course redesigning happened a lot  in order to create the best possible application.",
-      "paragraph2": "During this project I've learned a lot of new ways to code, or technologies to use. Thanks to my internship, I could use in both back- and front-end skills that I didn't knew before. The next thing I have tried to understand was hosting. For the first time I hosted my application on Amazon Web Services, it< took a while until I figured things out. In the end I am really proud of what I created and hope to maintain it as a learning guide."
+      "paragraph1": "The project started with an API I found on the internet, but it took way too long until it was updated. So the next logical step for me was to create my own. I first started drawing my database, so I know what I needed to store. The next step was creating my back-end and later the front-end.",
+      "paragraph2": "During this project I've learned a lot of new ways to code, or technologies to use, which I discovered in my internship. The next thing I have tried to understand was hosting. For the first time I hosted my application on Amazon Web Services, it took a while until I figured things out.",
+      "link": "https://github.com/Michiel-VE/F1",
+      "link2": "https://github.com/Michiel-VE/F1_API"
     }
   },
   "donate": {

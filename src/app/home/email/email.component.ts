@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, FormGroupDirective, Validators } from '@angular/forms';
-import Email, { EmailJSResponseStatus } from '@emailjs/browser';
-import { TranslateService } from '@ngx-translate/core';
 import { Toaster } from 'ngx-toast-notifications';
+import { TranslateService } from '@ngx-translate/core';
+import Email, { EmailJSResponseStatus } from '@emailjs/browser';
+import { FormBuilder, FormGroup, FormGroupDirective, Validators } from '@angular/forms';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-email',

@@ -1,5 +1,5 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
