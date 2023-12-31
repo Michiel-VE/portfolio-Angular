@@ -1,9 +1,14 @@
 module.exports = {
+  darkMode: 'class',
   content: [
     "./src/app/**/*.{html,ts}",
   ],
   theme: {
     extend: {
+      colors:{
+        'dark': '#282828',
+        'languageSelect': '#5c6664',
+      },
       backgroundImage: {
         'home': "linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%),url('assets/img/bg.webp')",
         'social': "linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%),url('assets/img/social.webp')",

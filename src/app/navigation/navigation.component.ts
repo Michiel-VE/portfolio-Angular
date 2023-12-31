@@ -8,7 +8,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit, AfterViewInit {
   readonly PREFIX: string = 'MVE';
-  currentLang = 'en';
+  isDarkMode: boolean;
 
   constructor(public translate: TranslateService) {
     translate.addLangs(['en', 'nl']);
@@ -17,26 +17,38 @@ export class NavigationComponent implements OnInit, AfterViewInit {
       localStorage.setItem(`${this.PREFIX}_lang`, window.navigator.language.slice(0, 2));
     }
 
-    const browserLang = localStorage.getItem(`${this.PREFIX}_lang`) || 'en';
+    const browserLang: string = localStorage.getItem(`${this.PREFIX}_lang`) || 'en';
     translate.use(browserLang.match(/en|nl/) ? browserLang : 'en');
+
+    this.toggleDarkMode()
   }
 
   ngOnInit(): void {
-    const nav = document.getElementById('menu');
+    const nav: HTMLElement = document.getElementById('menu');
     nav.classList.add('hidden');
   }
 
   ngAfterViewInit(): void {
     document.onclick = (args: any): void => {
       if (args.target.tagName !== 'SPAN' && args.target.tagName !== 'BUTTON' && args.target.tagName !== 'SELECT') {
-        const nav = document.getElementById('menu');
+        const nav: HTMLElement = document.getElementById('menu');
         nav.classList.add('hidden');
       }
     };
   }
 
+  selectTheme(): void {
+    this.isDarkMode = !this.isDarkMode
+    if (this.isDarkMode){
+      localStorage.MVE_theme = 'dark'
+    } else {
+      localStorage.MVE_theme = 'light'
+    }
+    this.toggleDarkMode()
+  }
+
   navToggle(): void {
-    const nav = document.getElementById('menu');
+    const nav: HTMLElement = document.getElementById('menu');
     nav.classList.toggle('hidden');
   }
 
@@ -56,5 +68,15 @@ export class NavigationComponent implements OnInit, AfterViewInit {
     localStorage.setItem(`${this.PREFIX}_lang`, this.translate.currentLang);
     document.documentElement.setAttribute('lang', this.translate.currentLang);
     return this.translate.currentLang === lang;
+  }
+
+  private toggleDarkMode(): void{
+    if (localStorage.MVE_theme === 'dark' || (!(`${this.PREFIX}_theme` in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+      this.isDarkMode = true
+    } else {
+      document.documentElement.classList.remove('dark')
+      this.isDarkMode = false
+    }
   }
 }

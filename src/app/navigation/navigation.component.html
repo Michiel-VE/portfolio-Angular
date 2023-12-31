@@ -1,51 +1,56 @@
-  <header>
-  <div class="fixed top-0 w-full z-40">
-    <nav id="site-menu"
-         class="flex flex-col lg:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-gray-200">
+<header>
+  <div class="fixed w-full z-40">
+    <nav class="flex flex-col lg:flex-row justify-between items-center px-4 md:px-8 lg:px-10 py-2 bg-gray-200">
       <div
-        class="w-full lg:w-auto self-start lg:self-center flex flex-row lg:flex-none flex-no-wrap justify-between items-center lg:ml-2">
+        class="w-full lg:w-auto flex lg:flex-none">
         <div (click)="scroll('home')" class="py-1 flex items-center cursor-pointer">
           <img src="assets/img/icon.webp" alt="Home" class="rounded-lg" width="54" height="40">
           <h2 class="hidden md:inline-block text-2xl small-caps text-bold ml-4">Michiel Van Eynde</h2>
         </div>
 
-        <button (click)="navToggle()" aria-label="Menu" id="menuBtn"
-                class="block lg:hidden focus:outline-none p-2 ml-auto">
+        <button (click)="navToggle()" aria-label="Menu" class="block lg:hidden focus:outline-none p-2 ml-auto">
           <span class="fas fa-bars"></span>
         </button>
       </div>
-      <div id="menu"
-           class="w-full lg:w-auto lg:mr-2 self-end lg:flex flex-col lg:flex-row h-full lg:gap-x-2 pb-4 lg:py-0 hidden text-center small-caps">
+
+      <div id="menu" class="w-full h-full hidden text-lg text-center small-caps lg:w-auto lg:flex lg:flex-row lg:gap-x-2">
+        <h2 class="inline-block md:hidden text-2xl small-caps text-bold mb-4">Michiel Van Eynde</h2>
+
         <button (click)="scroll('about')"
-                class="cursor-pointer block text-dark font-bold text-lg w-full no-underline lg:w-auto md:px-2 py-1 lg:py-2">
+                class="cursor-pointer font-bold  w-full no-underline p-2 lg:w-auto">
           <span>{{ 'nav.about' | translate }}</span>
         </button>
 
         <button (click)="scroll('projects')"
-                class="cursor-pointer block text-dark font-bold text-lg w-full no-underline lg:w-auto md:px-2 py-1 md:py-2">
+                class="cursor-pointer font-bold  w-full no-underline p-2 lg:w-auto">
           <span>{{ 'nav.projects' | translate }}</span>
         </button>
 
         <button (click)="scroll('skills')"
-                class="cursor-pointer block text-dark font-bold text-lg w-full no-underline lg:w-auto md:px-2 py-1 md:py-2">
+                class="cursor-pointer font-bold  w-full no-underline p-2 lg:w-auto">
           <span>{{ 'nav.skills' | translate }}</span>
         </button>
 
         <button (click)="scroll('socials')"
-                class="cursor-pointer block text-dark font-bold text-lg w-full no-underline lg:w-auto md:px-2 py-1 md:py-2">
+                class="cursor-pointer font-bold  w-full no-underline p-2 lg:w-auto">
           <span>{{ 'nav.social' | translate }}</span>
         </button>
-        <div class="md:px-2 py-1 md:py-2">
-        <span
-          class="m-auto text-white relative flex leading-loose bg-[#5c6664] overflow-hidden rounded w-20 z-10 after:content-['\25BC'] after:absolute after:-top-1 after:right-0 after:p-2 after:bg-[#2b2e2e] after:cursor-pointer hover:after:text-[#23b499] after:pointer-events-none">
-          <select class="appearance-none outline-0 shadow-none border-0 bg-[#5c6664] w-20 pl-2 p-1 cursor-pointer"
+        <div class="p-2">
+        <div
+          class="m-auto text-white relative flex leading-loose bg-languageSelect overflow-hidden rounded w-20 after:content-['\25BC'] after:absolute after:-top-1 after:right-0 after:p-2 after:bg-dark cursor-pointer hover:after:text-amber-600 after:pointer-events-none">
+          <select class="appearance-none outline-0 shadow-none bg-languageSelect w-20 pl-2 p-1 cursor-pointer"
                   #langSelect (change)="translate.use(langSelect.value); navToggle()">
-            <option class="pl-1" *ngFor="let lang of translate.getLangs()" [value]="lang"
+            <option *ngFor="let lang of translate.getLangs()" [value]="lang"
                     [selected]="changeSelectedLanguage(lang)">{{ lang | uppercase }}</option>
           </select>
-        </span>
+        </div>
+        </div>
+        <div class="lg:flex items-center text-2xl" (click)="selectTheme()">
+          <span *ngIf="!isDarkMode; else darkMode" class="fas fa-sun"></span>
+          <ng-template #darkMode><span class="fas fa-moon"></span></ng-template>
         </div>
       </div>
+
     </nav>
     <div class="scroll-progress h-1 bg-blue-600 w-full fixed z-50 origin-left"></div>
   </div>

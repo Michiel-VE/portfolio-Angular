@@ -1,6 +1,6 @@
 <section id="projects" class="px-4 sm:px-10 pb-8 bg-skill bg-center bg-no-repeat bg-fixed min-h-screen">
   <h2
-    class="text-4xl small-caps font-semibold md-2 md:mb-4 text-center pt-24">{{ 'home.projects.name' | translate }}</h2>
+    class="text-4xl small-caps font-semibold md-2 md:mb-4 text-center pt-24 text-black">{{ 'home.projects.name' | translate }}</h2>
   <div class="flex items-center">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-4 md:gap-2 mt-20 m-auto w-full md:w-3/4">
       <app-project *ngFor="let project of projects" [project]="project"></app-project>

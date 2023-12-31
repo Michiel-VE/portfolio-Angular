@@ -2,7 +2,7 @@
      class="rounded-xl overflow-hidden card group focus:outline-none focus:ring focus:ring-blue-900" tabindex="0">
   <div class="bg-{{ project.img }} bg-cover bg-top h-80 md:h-72 lg:h-80 relative">
     <div (click)="more()"
-         class="bg-black h-full opacity-80 w-full text-white px-4 transform transition-all cursor-pointer"
+         class="bg-black h-full w-full text-white px-4 transform transition-all cursor-pointer"
          [class]="moreInfo ? 'translate-y-0': 'translate-y-64 md:translate-y-48 lg:translate-y-64 group-hover:translate-y-48 group-focus:translate-y-48'">
       <div class="flex justify-between items-center">
         <h3 class="text-xl small-caps font-semibold py-2">
@@ -17,11 +17,16 @@
       <p class="hidden sm:block lg:hidden xl:block">
         {{project.paragraph2}}
       </p>
-      <div class="absolute bottom-2 left-4">
-        <a href="{{project.link}}"
-           target="_blank">{{'home.projects.result' | translate}}</a>
+      <div class="absolute bottom-2 right-4 text-black ml-auto">
+        <button class="bg-amber-600 p-2 small-caps font-bold rounded-xl border-2 border-white">
+          <a href="{{project.link}}"
+             target="blank">{{'home.projects.result' | translate}}</a>
+        </button>
 
-        <a class="px-2" *ngIf="project.link2" href="{{project.link}}" target="_blank">{{'home.projects.result2' | translate}}</a>
+        <button *ngIf="project.link2" class="bg-amber-600 p-2 ml-2  small-caps font-bold rounded-xl border-2 border-white">
+          <a href="{{project.link}}"
+             target="blank">{{'home.projects.result2' | translate}}</a>
+        </button>
       </div>
 
     </div>
@@ -31,7 +36,8 @@
 <ng-template #notCompleted>
   <div class="rounded-xl overflow-hidden card group focus:outline-none focus:ring focus:ring-blue-900" tabindex="0">
     <div class="bg-{{ project.img }} bg-cover bg-top h-80 md:h-72 lg:h-80 relative">
-      <div class="bg-black h-full opacity-80 w-full text-white px-4 transform transition-all cursor-pointer translate-y-64 md:translate-y-48 lg:translate-y-64 group-hover:translate-y-48 group-focus:translate-y-48">
+      <div
+        class="bg-black h-full opacity-80 w-full text-white px-4 transform transition-all cursor-pointer translate-y-64 md:translate-y-48 lg:translate-y-64 group-hover:translate-y-48 group-focus:translate-y-48">
         <div class="flex justify-between items-center">
           <h3 class="text-xl small-caps font-semibold py-2">
             {{project.name}}

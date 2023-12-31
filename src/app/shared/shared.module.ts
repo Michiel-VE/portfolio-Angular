@@ -17,7 +17,7 @@ import { ProjectComponent } from '../home/projects/project/project.component';
 import { LandingComponent } from '../home/landing/landing.component'
 import { FooterComponent } from '../home/footer/footer.component';
 import { EmailComponent } from '../home/email/email.component';
-import { BloodComponent } from '../home/blood/blood.component';
+import { DonateComponent } from '../home/donate/donate.component';
 import { AboutMeComponent } from '../home/about-me/about-me.component';
 
 
@@ -34,7 +34,7 @@ export const createTranslateLoader = (http: HttpClient): TranslateHttpLoader => 
     SkillsComponent,
     FooterComponent,
     EmailComponent,
-    BloodComponent,
+    DonateComponent,
     TruncatePipe,
   ],
     imports: [
@@ -61,7 +61,7 @@ export const createTranslateLoader = (http: HttpClient): TranslateHttpLoader => 
     LandingComponent,
     NavigationComponent,
     EmailComponent,
-    BloodComponent,
+    DonateComponent,
   ],
 })
 export class SharedModule {

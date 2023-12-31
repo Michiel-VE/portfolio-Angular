@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'portfolioMVE';
+  title: string = 'portfolioMVE';
 
   onActivate(): void {
     window.scroll(0, 0);
